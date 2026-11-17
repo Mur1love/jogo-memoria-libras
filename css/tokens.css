@@ -1,0 +1,34 @@
+:root {
+  --bg: #0F1226;         /* fundo (tema escuro padrão do jogo) */
+  --surface: #FFFFFF;    /* cartas e molduras de vídeo */
+  --surface-alt: #1E2342;/* superfície escura secundária */
+  --ink: #0B0D1F;        /* texto sobre superfície clara */
+  --ink-inv: #FFFFFF;    /* texto sobre fundo escuro */
+  --accent: #FFC83D;     /* destaque (holofote, foco) */
+  --ok: #1F9D55;         /* acerto (sempre com ícone ✓) */
+  --soft: #6B7AFF;       /* "quase" (sempre com texto) */
+  --radius: 16px;
+  --radius-sm: 8px;
+  --font: system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+  --fs-base: 1.25rem;    /* 20px; G = 1.5rem; GG = 1.75rem */
+  --transition-speed: 0.3s;
+}
+
+:root[data-contrast="alto"] {
+  --bg: #000000;
+  --surface: #FFFFFF;
+  --surface-alt: #222222;
+  --ink: #000000;
+  --ink-inv: #FFFFFF;
+  --accent: #FFFF00;
+  --ok: #00FF66;
+  --soft: #99BBFF;
+}
+
+:root[data-theme="claro"] {
+  --bg: #F4F5FA;
+  --surface: #FFFFFF;
+  --surface-alt: #E8EAF2;
+  --ink: #0B0D1F;
+  --ink-inv: #0B0D1F;
+}

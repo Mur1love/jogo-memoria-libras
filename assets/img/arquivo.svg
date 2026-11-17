@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" fill="none" stroke="#059669" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Símbolo de Arquivo: documento com orelha dobrada e linhas -->
+  <path d="M24,14 L56,14 L76,34 L76,86 L24,86 Z" fill="#D1FAE5" />
+  <polyline points="56,14 56,34 76,34" />
+  <line x1="34" y1="48" x2="66" y2="48" />
+  <line x1="34" y1="62" x2="66" y2="62" />
+  <line x1="34" y1="74" x2="52" y2="74" />
+</svg>

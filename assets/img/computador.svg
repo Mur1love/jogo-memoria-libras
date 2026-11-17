@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" fill="none" stroke="#0D9488" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Símbolo de Computador: monitor com base -->
+  <rect x="14" y="16" width="72" height="52" rx="6" fill="#CCFBF1" />
+  <line x1="50" y1="68" x2="50" y2="82" />
+  <line x1="30" y1="82" x2="70" y2="82" />
+</svg>

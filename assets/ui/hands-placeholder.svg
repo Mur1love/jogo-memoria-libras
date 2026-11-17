@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="80" height="80" fill="none" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Ícone de Mãos em Libras para Placeholder de Vídeo -->
+  <!-- Mão esquerda -->
+  <path d="M22,65 L22,42 C22,38 26,38 26,42 L26,58" />
+  <path d="M26,42 C26,36 30,36 30,42 L30,58" />
+  <path d="M30,42 C30,38 34,38 34,44 L34,60" />
+  <path d="M34,48 C34,44 38,44 38,50 L38,68 C38,78 30,82 22,80 L14,72 L18,62 Z" fill="#DBEAFE" />
+  <!-- Mão direita -->
+  <path d="M78,65 L78,42 C78,38 74,38 74,42 L74,58" />
+  <path d="M74,42 C74,36 70,36 70,42 L70,58" />
+  <path d="M70,42 C70,38 66,38 66,44 L66,60" />
+  <path d="M66,48 C66,44 62,44 62,50 L62,68 C62,78 70,82 78,80 L86,72 L82,62 Z" fill="#DBEAFE" />
+</svg>
