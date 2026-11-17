@@ -23,6 +23,7 @@
     videoEl.src = videoSrc;
 
     let hasFallback = false;
+    let triedAlternative = false;
 
     function renderFallback() {
       if (hasFallback) return;
@@ -35,8 +36,20 @@
       `;
     }
 
-    // Se o vídeo falhar em carregar (ex.: arquivo ainda não colocado pelo usuário)
+    // Se o vídeo falhar em carregar (ex.: extensão em maiúsculas .MP4 vs minúsculas .mp4)
     videoEl.addEventListener('error', function() {
+      if (!triedAlternative && videoSrc) {
+        triedAlternative = true;
+        if (videoSrc.endsWith('.mp4')) {
+          videoEl.src = videoSrc.replace(/\.mp4$/, '.MP4');
+          videoEl.load();
+          return;
+        } else if (videoSrc.endsWith('.MP4')) {
+          videoEl.src = videoSrc.replace(/\.MP4$/, '.mp4');
+          videoEl.load();
+          return;
+        }
+      }
       renderFallback();
     });
 
