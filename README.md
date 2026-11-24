@@ -2,6 +2,15 @@
 
 Projeto base desenvolvido conforme as especificações pedagógicas e de acessibilidade do PRD (`PRD_Dicionario_Vivo_Computacao.md`), com foco no Ensino Médio e no ensino inclusivo de conceitos de computação em Libras (Língua Brasileira de Sinais).
 
+**🔗 Demo online:** https://mur1love.github.io/jogo-memoria-libras/
+
+---
+
+## 👥 Contribuindo
+
+Colaboradores: **DaviidCarvallho** e **joaoppazzin1** têm acesso de escrita ao repositório.
+Guia de contribuição: [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
 ---
 
 ## 🚀 Como Executar
