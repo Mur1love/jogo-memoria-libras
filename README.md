@@ -13,6 +13,21 @@ Guia de contribuição: [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ---
 
+## 🗺️ Roadmap
+
+Os objetivos de evolução do jogo estão registrados como issues abertas — cada uma com escopo, critérios de aceite e as referências ao PRD:
+
+| Objetivo | Issue |
+|---|---|
+| 🗂️ Seletor temático de palavras/cartas (computação, objetos, cozinha, escola, trânsito) | [#1](https://github.com/Mur1love/jogo-memoria-libras/issues/1) |
+| ⏱️ Desafio de tempo por rodada (anel regressivo, sem som) | [#2](https://github.com/Mur1love/jogo-memoria-libras/issues/2) |
+| 🔍 Vídeo de Libras ampliado e centralizado ao clicar na carta | [#3](https://github.com/Mur1love/jogo-memoria-libras/issues/3) |
+| 👥 Modos **Duelo 1x1** e **Equipes (projetor)** para jogar com a turma | [#4](https://github.com/Mur1love/jogo-memoria-libras/issues/4) |
+
+Visão geral e dependências: [#5 — Roadmap](https://github.com/Mur1love/jogo-memoria-libras/issues/5).
+
+---
+
 ## 🚀 Como Executar
 
 O projeto foi construído em **HTML5, CSS3 e Vanilla JavaScript (ES2020)** puro, sem bundler, sem `npm install` e sem dependências externas de CDN.
